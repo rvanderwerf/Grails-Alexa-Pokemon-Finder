@@ -13,6 +13,8 @@ class User implements Serializable {
 
 	String username
 	String password
+	long latitude
+	long longitude
 	boolean enabled = true
 	boolean accountExpired
 	boolean accountLocked
